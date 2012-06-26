@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context backgroundProcessorDelay="1" reloadable="true" docBase="PUT-PATH-TO-YOUR-PROJECT-HERE">
+	<Resource name="jdbc/DemoDS" scope="Shareable" auth="Container" type="javax.sql.DataSource"
+		driverClassName="org.postgresql.Driver" url="jdbc:postgresql://localhost/onewebsql"
+		username="onewebsql" password="onewebsql" maxActive="20" maxIdle="10" maxWait="1000"
+		/>
+</Context>
